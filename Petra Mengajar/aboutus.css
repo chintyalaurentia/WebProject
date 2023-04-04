@@ -1,0 +1,328 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("./asset/background/computer/About-us.jpg");
+}
+
+.aboutus{
+    min-width: 38vw;
+    max-width: 38vw;
+    margin-top: 20vh;
+    transition: opacity linear 0.3s;
+    margin-right: 3.5vw;
+}
+.container.align-items-end.me-3 {
+    min-width: 38vw;
+    max-width: 38vw;
+}
+
+#col {
+    margin-top: 3vh;
+}
+#closeApa{
+    font-size: 1.7vw;
+}
+
+#kataMereka{
+    font-family: "Made-Tommy", sans-serif;
+    border: 1px solid #387d8f;
+    border-radius: 10px;
+    
+    font-size: 1.5vw;
+    transition: 0.5s all;
+    
+    color:#ffeb91;
+    background: #387d8f;
+
+    min-width: 15vw;
+    max-width: 15vw;
+    overflow-wrap: break-word;
+}
+
+
+#kataMereka:hover, #ig:hover{
+    font-family: "Made-Tommy", sans-serif;
+    color: #387d8f;
+    background: #ffeb91;
+    border: 1px solid #ffeb91;
+}
+
+#ig{
+    font-family: "Made-Tommy", sans-serif;
+    text-align: center;
+    border: 1px solid #387d8f;
+    border-radius: 10px;
+    
+    font-size: 1.5vw;
+    transition: 0.5s all;
+    
+    color:#ffeb91;
+    background: #387d8f;
+
+    text-decoration: none;
+    min-width: 18vw;
+    max-width: 18vw;
+    overflow-wrap: break-word;
+}
+
+h2,p{
+    cursor: context-menu;
+}
+
+#titleAbout{
+    font-family: "Blitzen-Deer", sans-serif;
+    font-size: 6vw;
+    color:#387d8f;
+    text-shadow: 3px 3px 4px #ffeb91;
+    text-align: right;
+}
+
+.aboutUsContent{
+    font-family: "Made-Tommy", sans-serif;
+    font-size: 1.5vw;
+    color:#387d8f;
+    text-align: right;
+}
+
+
+.modal-dialog-scrollable   ::-webkit-scrollbar{
+        width: 5px;
+    }
+
+::-webkit-scrollbar-thumb {
+    background: #387d8f; 
+    border-radius: 10px;
+}
+
+
+.modal-content{
+    background: #ffeb91;
+}
+.modal-body {
+    padding-bottom: 6vh;
+}
+
+.card{
+    border-radius: 30px;
+    background: #387d8f;
+    color: #ffeb91;
+    box-shadow: 0px 0px 20px #387d8f;
+    transition: all 0.3s linear;
+    width: 100%;
+    text-align: center;
+}
+
+.card-title{
+    font-size: 2vw;
+}
+
+.card-text{
+    font-size: 1.3vw;
+    font-family: "Made-Tommy", sans-serif;
+}
+
+.card:hover{
+    cursor: context-menu;
+    transform: scale(1.05);
+}
+.col-5 {
+    margin-top: 3vh;
+    margin-bottom: 1.5vh;
+    text-align: center;
+}
+
+.col-lg-5.col-md-8.col-sm-8 {
+    margin: 2vw;
+}
+
+/* tab */
+@media screen and (max-width: 900px) {
+    body, html {
+        background-image: url("./asset/background/tab/About-us.jpg");
+    }
+    #titleAbout{
+        font-family: "Blitzen-Deer", sans-serif;
+        font-size: 12vw;
+        color:#387d8f;
+        text-shadow: 3px 3px 4px #ffeb91;
+    }
+    .aboutus{
+        min-width: 50vw;
+        max-width: 50vw;
+        margin-top: 9vh;
+        transition: opacity linear 0.3s;
+        margin-right: 4vw;
+    }
+    .aboutUsContent{
+        font-family: "Made-Tommy", sans-serif;
+        font-size: 3.5vw;
+        color:#387d8f;
+        text-align: right;
+        margin-top: 1.5vh;
+    }
+    #kataMereka{
+        font-family: "Made-Tommy", sans-serif;
+        border: 1px solid #387d8f;
+        border-radius: 10px;
+        
+        font-size: 3vw;
+        transition: 0.5s all;
+        
+        color:#ffeb91;
+        background: #387d8f;
+        max-width: 45vw;
+        min-width: 45vw;
+    }
+    
+    #ig{
+        font-family: "Made-Tommy", sans-serif;
+        text-align: center;
+        border: 1px solid #387d8f;
+        border-radius: 10px;
+        
+        font-size: 3vw;
+        transition: 0.5s all;
+        
+        color:#ffeb91;
+        background: #387d8f;
+    
+        text-decoration: none;
+        max-width: 45vw;
+        min-width: 45vw;
+    }
+    #col {
+        margin-top: 1.5vh;
+    }
+    #apaKata{
+        max-width: 90vw;
+        min-width: 90vw;
+    }
+    .card{
+        border-radius: 30px;
+        margin: 1.5vw auto;
+        /* max-width: 25vw;
+        min-width: 25vw; */
+        width: 100%;
+        background: #387d8f;
+        color: #ffeb91;
+        box-shadow: 0px 0px 20px #387d8f;
+        transition: all 0.3s linear;
+    }
+    #closeApa{
+        font-size: 3.3vw;
+    }
+    
+    .card-title{
+        font-size: 3vw;
+    }
+    
+    .card-text{
+        font-size: 2.3vw;
+        font-family: "Made-Tommy", sans-serif;
+    }
+    .col-5 {
+        margin-top: 2vh;
+        margin-bottom: 0.5vh;
+        text-align: center;
+    }
+    .col-lg-5.col-md-8.col-sm-8 {
+        margin: 0vw;
+    }
+}
+/* mobile */
+@media screen and (max-width: 480px)  {
+    body, html {
+        background-image: url("./asset/background/mobile/About-Us.jpg");
+    }
+    #titleAbout{
+        font-family: "Blitzen-Deer", sans-serif;
+        font-size: 13vw;
+        color:#387d8f;
+        text-shadow: 3px 3px 4px #ffeb91;
+        text-align: center;
+    }
+    .aboutus{
+        min-width: 90vw;
+        max-width: 90vw;
+        margin-top: 3.5vh;
+        margin-right: 4vw;
+        transition: opacity linear 0.3s;
+    }
+    .aboutUsContent{
+        font-family: "Made-Tommy", sans-serif;
+        font-size: 4.3vw;
+        color:#387d8f;
+        margin-top: 1.8vh;
+        text-align: center;
+    }
+    .col-lg-5.col-md-8.col-sm-8 {
+        margin: 0vw;
+    }
+    #kataMereka{
+        font-family: "Made-Tommy", sans-serif;
+        border: 1px solid #387d8f;
+        border-radius: 10px;
+        
+        font-size: 4vw;
+        transition: 0.5s all;
+        
+        color:#ffeb91;
+        background: #387d8f;
+        max-width: 50vw;
+        min-width: 50vw;
+    }
+    
+    #ig{
+        font-family: "Made-Tommy", sans-serif;
+        text-align: center;
+        border: 1px solid #387d8f;
+        border-radius: 10px;
+        
+        font-size: 4vw;
+        transition: 0.5s all;
+        
+        color:#ffeb91;
+        background: #387d8f;
+    
+        text-decoration: none;
+        max-width: 50vw;
+        min-width: 50vw;
+    }
+    #col {
+        margin-top: 1vh;
+    }
+    #contButton {
+        text-align: center;
+    }
+    #apaKata{
+        max-width: 90vw;
+        min-width: 90vw;
+    }
+    #closeApa{
+        font-size: 5vw;
+    }
+    .card{
+        border-radius: 30px;
+        margin: 1.5vw auto;
+        /* max-width: 33vw;
+        min-width: 33vw; */
+        width: 100%;
+        background: #387d8f;
+        color: #ffeb91;
+        box-shadow: 0px 0px 20px #387d8f;
+        transition: all 0.3s linear;
+    }
+    
+    .card-title{
+        font-size: 4.5vw;
+    }
+    
+    .card-text{
+        font-size: 3.7vw;
+        font-family: "Made-Tommy", sans-serif;
+    }
+}
